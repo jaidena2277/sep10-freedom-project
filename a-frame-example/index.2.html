@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <style>
+            /* CSS */
+            
+        </style>
+        
+        <title>Title</title>
+        <!-- HTML -->
+       <html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sphere position="1 2 -3" radius="0.5" color="#EF2D5E" animation="property: object3D.position.y; to: 3.3; dir: alternate; dur: 2000; loop: true"></a-sphere>
+
+      <a-cone position="1 0.75 -3" radius="0.5" height="3" color="lightgreen" animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 2000; loop: true"></a-cone>
+
+      <a-sphere position="3 2 -1" radius="0.5" color="#EF2D5E" animation="property: object3D.position.y; to: 3.3; dir: alternate; dur: 2000; loop: true"></a-sphere>
+
+      <a-cone position="3 0.75 -1s" radius="0.5" height="3" color="lightgreen" animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 2000; loop: true"></a-cone>
+      
+      <a-sphere position="-2 2 -3" radius="0.5" color="#EF2D5E" animation="property: object3D.position.y; to: 3.3; dir: alternate; dur: 2000; loop: true"></a-sphere>
+
+      <a-cone position="-2 0.75 -3" radius="0.5" height="3" color="lightgreen" animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 2000; loop: true"></a-cone>
+
+      <a-entity id="rig" position="0 0 6">
+        <a-camera id="camera"></a-camera>
+      </a-entity>
+      <a-assets>
+
+  <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg">
+
+</a-assets>
+
+<a-plane src="#groundTexture" rotation="-90 0 0" width="50" height="50"></a-plane>
+
+
+     </a-scene> 
+    
+  </body>
+</html>
+            
+        </script>
+    </body>
+</html>
